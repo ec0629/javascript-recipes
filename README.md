@@ -6,3 +6,5 @@
   - Recipe 3: Rest Operator
   - Recipe 4: Spread Operator
   - Recipe 5: String template literal tags
+  - Recipe 6: ES6 OOP syntax including getters and setters
+  - Recipe 7: Using ES6 to implement inheritance
