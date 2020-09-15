@@ -17,7 +17,8 @@
     - Recipe 12: Composing Generators and Iterators
     - Recipe 13: Passing params to subsequent calls to next on generators
     - Recipe 14: Representing numbers in different bases in ES6
-    - Recipe 15: basic functionality of the built-in Set object
+    - Recipe 15: Basic functionality of the built-in Set object
+    - Recipe 16: Combining Generators and Promises to handle async code cleanly
   - ## Notes
     - [Note 1: Understanding the WeakSet and WeakMap](#note-1-understanding-the-weakset-and-weakmap)
 
