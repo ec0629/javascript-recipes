@@ -21,6 +21,8 @@
     - Recipe 16: Combining Generators and Promises to handle async code cleanly
   - ## Notes
     - [Note 1: Understanding the WeakSet and WeakMap](#note-1-understanding-the-weakset-and-weakmap)
+    - [Note 2: Understanding Object.is](#note-2-understanding-objectis)
+    - [Note 3: Computed Property values](#note-3-computed-property-values)
 
 # Notes
 ## Note 1: Understanding the WeakSet and WeakMap
@@ -29,3 +31,18 @@
   like a Map/Set entry then the garbage collector will not dispose of
   it. However, if the object/variable is only being referenced by a WeakSet
   or WeakMap then it is available for disposal.
+
+## Note 2: Understanding Object.is
+- Object.is nearly identical to the === operator except
+1. -0 === 0 is true whereas Object.is(0, -0) is false
+2. NaN === NaN is false, Object.is(NaN, NaN) is true
+
+## Note 3: Computed Property values
+- As of ES6 we can now use string literals when defining objects
+```js
+const newObj = {
+  ['illegal property name']: 'pretty cool'
+};
+console.log(newObj['illegal property name']);
+// pretty cool
+```
