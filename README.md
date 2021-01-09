@@ -22,6 +22,7 @@
   - Recipe 16: Combining Generators and Promises to handle async code cleanly
   - Recipe 17: Proxying objects
   - Recipe 18: Proxying functions
+  - Recipe 19: Using symbols to define private variables
 - ## Notes
   - [Note 1: Understanding the WeakSet and WeakMap](#note-1-understanding-the-weakset-and-weakmap)
   - [Note 2: Understanding Object.is](#note-2-understanding-objectis)
